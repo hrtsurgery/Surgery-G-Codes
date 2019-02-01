@@ -1,0 +1,14 @@
+% Mouse striatum 0.75mm ap injection
+% 0 degree angle
+% Mark bregma with left needle
+G92 X0 Y0 Z0
+G1 Z3
+G1 Y0 F100
+G1 X-1.59
+G1 Z0
+G4 P5
+G1 Z-3.604 F25
+G4 P5
+G1 Z-3.392 F25
+M00
+G1 Z3
