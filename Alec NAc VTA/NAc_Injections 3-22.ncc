@@ -1,0 +1,22 @@
+% NAc_Injections 3-22                 
+G92 X0 Y0 Z0                    
+G1 X0 Y0 Z3 F100                 
+G1 X-.95 Y1.8 Z3 F100      
+G1 X-.95 Y1.8 Z0  F100 
+G4 P10    
+G1 X-.95 Y1.8 Z-8.05 F50
+G4 P10    
+G1 X-.95 Y1.8 Z-7.8 F50
+M00
+G1 X-.95 Y1.8 Z1  F100     
+G1 X0 Y0 Z3 F100                 
+M00                             
+G1 X.95 Y1.8 Z3 F100      
+G1 X.95 Y1.8 Z0  F100 
+G4 P10    
+G1 X.95 Y1.8 Z-8.05 F50
+G4 P10    
+G1 X.95 Y1.8 Z-7.8 F50
+M00
+G1 X.95 Y1.8 Z1  F100 
+G1 X0 Y0 Z3 F100 
