@@ -1,4 +1,4 @@
-%% Adjusts g-codes for the new robot, by dividing all numbers by 1.06
+%% Adjusts g-codes for the new robot, by dividing all numbers by 1.06 so that coordinates are 1mm/unit
 
 [fileName, filePath] = uigetfile('V:\Surgery Robot\*','Select Files to convert','MultiSelect','on');
 fileName = cellstr(fileName);
