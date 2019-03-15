@@ -1,15 +1,25 @@
-% 1.0 units/mm
+% Mouse DRN Holes - Right
+% ML: 0
+% AP: -4.5
+% DV: 3.25
+
 G92 X0 Y0 Z0
-G0 F100
-G0 X0 Y0 3
-G0 X0.88396 Y-4.4 3
-G0 X0.88396 Y-4.4 Z0
-G0 F50
+G1 F100
+
+% Go to the hole
+G1 Z4
+G1 X0.87083 Y-4.5
+G1 Z0
+
+% Go 0.2mm past injection site
 G4 P5
-G1 X-0.059906 Y-4.4 Z-3.5235
+G1 F25
+G1 X-0.0518 Y-4.5 Z-3.4432
+
+% Injection site
 G4 P5
-G1 X0 Y-4.4 Z-3.3
+G1 X0 Y-4.5 Z-3.25
+
 M00
-G1 X0.88396 Y-4.4 Z0
-G0 X0.88396 Y-4.4 3
-M00
+G1 X0.87083 Y-4.5 Z0
+G1 Z3 F100
