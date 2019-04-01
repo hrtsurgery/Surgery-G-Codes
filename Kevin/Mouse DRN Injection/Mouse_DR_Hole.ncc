@@ -1,35 +1,37 @@
-% Mouse DRN Holes
-% ML: 0
-% AP: -4.5
-% DV: 3.25
+% Created 2019-Apr-01
+% Drill 1 mm holes at 0.2 mm per cycle
+
+% Injection      AP      ML      DV      Angle
+% ---------     ----    ----    ----    -------
+% DRN_Right     +0      -4.5    +3.25   +15
+
 
 G92 X0 Y0 Z0
+G1 Z3 F100
 
-% Right DRN
-G1 F100
-G1 Z4
-G1 X0.87083 Y-4.5
+% DRN_Right
+G1 X0.8708 Y-4.5 Z3 F100
+F50
 G4 P4
-
-G1 F50
 G1 Z0
 G4 P1
 G1 Z-0.2
-G4 P1
+G4 P0.5
 G1 Z0
 G4 P1
 G1 Z-0.4
-G4 P1
+G4 P0.5
 G1 Z0
 G4 P1
 G1 Z-0.6
-G4 P1
+G4 P0.5
 G1 Z0
 G4 P1
 G1 Z-0.8
-G4 P1
+G4 P0.5
 G1 Z0
 G4 P1
-G1 Z-1.0
-G4 P1
-G1 Z4 F100
+G1 Z-1
+G4 P0.5
+G1 Z0
+G1 Z3 F100
