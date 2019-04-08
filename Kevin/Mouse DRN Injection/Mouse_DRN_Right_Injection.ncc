@@ -1,6 +1,6 @@
-% Created 2019-Apr-01
+% Created 2019-Apr-08
 % Inject with 0.2 mm overshoot
-% Injection      AP      ML      DV      Angle
+% Injection      ML      AP      DV      Angle
 % ---------     ----    ----    ----    -------
 % DRN_Right     +0      -4.5    +3.25   +15
 
