@@ -1,0 +1,22 @@
+% Created 2019-Aug-12
+% Inject with 0.25 mm overshoot
+% Injection      ML      AP      DV      Angle
+% ---------     ----    ----    ----    -------
+% dSTR_Right    +2      +0.4    +3.7    +0
+
+
+G92 X0 Y0 Z0
+G1 Z3 F100
+
+G1 X2 Y0.4
+G1 Z0
+G4 P6
+G1 X2 Y0.4 Z-3.8 F25
+G4 P6
+G1 X2 Y0.4 Z-3.7
+G4 P6
+G1 X2 Y0.4 Z-2.7 F0.125
+M00
+G1 X2 Y0.4 Z0 F25
+G1 Z3 F100
+
